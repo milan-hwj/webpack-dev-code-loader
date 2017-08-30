@@ -20,7 +20,7 @@ loaders: [
 ]
 ...
 ```
-Then joy your life.
+Then enjoy your life.
 
 
 ## Examples
