@@ -1,0 +1,45 @@
+{
+  "name": "devMockLoader",
+  "version": "1.0.0",
+  "description": "webpack dev mock loader",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan-hwj/webpackDevMockLoader.git"
+  },
+  "keywords": [
+    "mock",
+    "loader",
+    "webpack"
+  ],
+  "author": {
+    "name": "milan-hwj"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milan-hwj/webpackDevMockLoader/issues"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/milan-hwj/webpackDevMockLoader",
+  "devDependencies": {
+    "babel": "~6.1.18",
+    "babel-core": "~6.1.19",
+    "babel-loader": "~6.1.0",
+    "babel-plugin-antd": "^0.4.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-polyfill": "^6.2.0",
+    "babel-preset-es2015": "~6.1.18",
+    "babel-preset-react": "~6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-runtime": "^6.2.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "readmeFilename": "README.md"
+}
