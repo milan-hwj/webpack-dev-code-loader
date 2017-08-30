@@ -10,20 +10,15 @@ npm install dev-code-loader --save
 
 ### Step 2: config webpack.config.js
 ```javascript
-var devCodeLoader = require('dev-code-loader');
-...
-resolveLoader: {
-    alias: {
-        'devMock': path.resolve('xxx')
-    }
-}
+require('dev-code-loader');
 ...
 loaders: [
     {
         test: /\.js$/,
-        loader: 'other-loader!devMock'
+        loader: 'other-loader!dev-code-loader'
     }
 ]
+...
 ```
 Then joy your life.
 
