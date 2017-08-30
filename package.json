@@ -1,5 +1,5 @@
 {
-  "name": "devMockLoader",
+  "name": "dev-code-loader",
   "version": "1.0.0",
   "description": "webpack dev mock loader",
   "main": "./dist/main.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milan-hwj/webpackDevMockLoader.git"
+    "url": "git+https://github.com/milan-hwj/webpack-dev-code-loader.git"
   },
   "keywords": [
     "mock",
@@ -21,11 +21,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/milan-hwj/webpackDevMockLoader/issues"
+    "url": "https://github.com/milan-hwj/webpack-dev-code-loader/issues"
   },
   "dependencies": {
   },
-  "homepage": "https://github.com/milan-hwj/webpackDevMockLoader",
+  "homepage": "https://github.com/milan-hwj/webpack-dev-code-loader",
   "devDependencies": {
     "babel": "~6.1.18",
     "babel-core": "~6.1.19",

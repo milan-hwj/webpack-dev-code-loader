@@ -30,21 +30,21 @@ Then joy your life.
 
 ## Examples
 ```javascript
-source code:  
+[source code]  
 // devCode const a = 1;
 const a = 2;
 
-Compile code:  
+[Compile code]
 const a = 1;
 ```
 
 ```javascript
-source code:  
+[source code]
 // devCode
 const a = 2;
 const b = 1;
 
-Compile code:  
+[Compile code]
 const b = 1;
 ```
 
