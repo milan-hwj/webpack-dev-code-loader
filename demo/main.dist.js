@@ -52,7 +52,6 @@
 	// devCode console.info('mock code');
 	console.info('mock code');
 
-
 /***/ }
 /******/ ]);
 //# sourceMappingURL=main.dist.js.map

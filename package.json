@@ -1,6 +1,6 @@
 {
   "name": "dev-code-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webpack dev mock loader",
   "main": "./dist/main.js",
   "scripts": {
